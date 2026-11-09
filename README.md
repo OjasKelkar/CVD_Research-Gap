@@ -1,44 +1,121 @@
+Cardiovascular Disease Prediction Research
 
-# Cardiovascular Disease Prediction Research
+A Comparative Study of Machine Learning Models for Robust Cardiovascular Disease Prediction Under Missing Clinical Data
 
-## Research Title
-A Comparative Study of Machine Learning Models for
-Robust Cardiovascular Disease Prediction Under Missing
-Clinical Data.
+1. Research Objective
 
-## Research Objective
-To investigate how missing clinical data and different
-imputation strategies affect machine learning performance
-and probability calibration.
+To investigate how missing clinical data and different imputation strategies affect machine learning performance and probability calibration in cardiovascular disease prediction.
 
-## Dataset
-UCI Cleveland Heart Disease Dataset.
+2. Dataset
 
-## Missingness Levels
-0%, 10%, 20%, 30%.
+Dataset: UCI Cleveland Heart Disease Dataset
 
-## Imputation Methods
-1. Median Imputation
-2. KNN Imputation
-3. Iterative Imputation
+Source: UCI Machine Learning Repository
 
-## Machine Learning Models
-1. Logistic Regression
-2. Support Vector Machine
-3. Random Forest
-4. XGBoost
-5. CatBoost
+Instances: 303
 
-## Evaluation Metrics
-Accuracy, Precision, Recall, F1-score, ROC-AUC,
-PR-AUC, Brier Score and Calibration Curves.
+Features: 13 clinical attributes
 
-## Validation
-Stratified 5-Fold Cross Validation.
-Two random seeds.
+Task: Binary Classification
 
-## Project Status
-Experimental implementation in progress.
-=======
-# CVD_Research-Gap
+3. Experimental Design
 
+Missingness Levels:
+
+0%
+
+10%
+
+20%
+
+30%
+
+Imputation Methods:
+
+Median Imputation
+
+KNN Imputation
+
+Iterative Imputation
+
+4. Machine Learning Models
+
+Logistic Regression
+
+Support Vector Machine (SVM)
+
+Random Forest
+
+XGBoost
+
+CatBoost
+
+5. Evaluation Metrics
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+ROC-AUC
+
+PR-AUC
+
+Brier Score
+
+Calibration Curves
+
+6. Validation Strategy
+
+Stratified 5-Fold Cross-Validation
+
+Two independent random seeds
+
+Consistent evaluation across experimental configurations
+
+Leakage-free preprocessing and imputation
+
+7. Technologies Used
+
+Python
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+XGBoost
+
+CatBoost
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook
+
+8. Research Workflow
+
+Dataset acquisition and exploration
+
+Data preprocessing
+
+Missingness simulation
+
+Missing value imputation
+
+Machine learning model training
+
+Performance evaluation
+
+Probability calibration analysis
+
+Comparative results and visualization
+
+9. Research Contribution
+
+This research aims to compare machine learning algorithms and imputation strategies to understand their robustness under different levels of missing clinical data, with particular emphasis on predictive performance and probability calibration.
