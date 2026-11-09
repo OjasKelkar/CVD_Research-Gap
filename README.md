@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Cardiovascular Disease Prediction Research
 
 ## Research Title
@@ -41,4 +41,4 @@ Two random seeds.
 Experimental implementation in progress.
 =======
 # CVD_Research-Gap
->>>>>>> 3a53c50dc1f1501fb4d2b3e27758a21a8a8acb56
+
